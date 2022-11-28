@@ -1,0 +1,35 @@
+.btn{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: azure;
+    padding: 12px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity .2s ease;
+    flex-direction: column;
+    margin: 20px;
+    min-width: 50px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn + .btn{
+    margin-left: 16px;
+}
+.btn--success{
+    background-color: green;
+}
+.btn--warning{
+    background-color: yellow;
+}
+.btn--danger{
+    background-color: red;
+}
+.btn--size-s{
+    padding: 10px 40px;
+}
+.btn--size-l{
+    padding: 15px 50px;
+}
+
